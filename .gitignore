@@ -1,0 +1,44 @@
+# Environments
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Heavy data (never push the 80 MB CSV)
+data/raw/
+data/processed/
+data/simulated/
+*.parquet
+*.pkl
+*.h5
+
+# Trained models
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Logs
+logs/*.log
+logs/*.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
+Thumbs.db
+
+# Keep data directories in version control without tracking their contents
+!data/
+!data/raw/
+data/raw/*
+!data/raw/.gitkeep
+!data/processed/
+data/processed/*
+!data/processed/.gitkeep
+!data/simulated/
+data/simulated/*
+!data/simulated/.gitkeep
