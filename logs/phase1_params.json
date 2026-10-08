@@ -1,0 +1,6 @@
+{
+  "PRE_WINDOW_H": 48,
+  "reason": "farthest significant block starts 48 h before failure",
+  "SEED": 42,
+  "significant_blocks": 12
+}
