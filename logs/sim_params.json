@@ -1,0 +1,72 @@
+{
+  "params": {
+    "seed": 42,
+    "v_nom": 400.0,
+    "f_nom": 50.0,
+    "n_lines": 5,
+    "machines_per_line": 20,
+    "rated_kw": {
+      "model1": 15.0,
+      "model2": 22.0,
+      "model3": 30.0,
+      "model4": 37.0
+    },
+    "base_load_range": [
+      0.5,
+      0.7
+    ],
+    "load_weights": {
+      "rotate": 0.06,
+      "pressure": 0.03
+    },
+    "lf_clip": [
+      0.15,
+      1.05
+    ],
+    "age_loss_per_year": 0.002,
+    "pf_intercept": 0.55,
+    "pf_slope": 0.33,
+    "pf_clip": [
+      0.5,
+      0.92
+    ],
+    "profile": {
+      "daily_amp": 0.15,
+      "peak_hour": 14,
+      "weekend_factor": 0.9,
+      "seasonal_amp": 0.05,
+      "seasonal_peak_doy": 200
+    },
+    "feeder": {
+      "sag_coef": 0.03,
+      "v_slow_phi": 0.995,
+      "v_slow_sigma": 0.003,
+      "line_drop_range": [
+        0.002,
+        0.008
+      ],
+      "loss_fraction": 0.02
+    },
+    "frequency": {
+      "phi": 0.9,
+      "sigma": 0.02,
+      "load_coef": -0.04
+    },
+    "noise": {
+      "volt_pct": 0.005,
+      "current_pct": 0.01,
+      "power_pct": 0.01,
+      "pf_pct": 0.01,
+      "freq_hz": 0.005,
+      "feeder_power_pct": 0.003
+    }
+  },
+  "summary": {
+    "rows": 876100,
+    "machines": 100,
+    "hours": 8761,
+    "true_residual_max": 4.440892098500626e-16,
+    "measured_residual_std": 0.018030250687317857,
+    "peak_over_rating": 0.7625103991385735
+  }
+}
