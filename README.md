@@ -96,7 +96,7 @@ Why this scope: it matches the structure of the available data (multi-machine, h
 
 ## 5. Dataset
 
-**Microsoft Azure Predictive Maintenance** (Kaggle: `arnabbiswas1/microsoft-azure-predictive-maintenance`).
+**Microsoft Azure Predictive Maintenance** ([dataset on Kaggle](https://www.kaggle.com/datasets/arnabbiswas1/microsoft-azure-predictive-maintenance)).
 Synthetic data for 100 machines over one year (01/01/2015 to 01/01/2016), with hourly telemetry.
 
 | File | Content | Key columns | Rows (measured at download) |
@@ -357,7 +357,7 @@ Contact for challenge clarifications: ranimdamak@ieee.org, mohamedali.krichen@ie
 ## 16. Acknowledgements and data licence
 
 - Challenge: **TSYP14 Technical Challenge, EnergyMind Tunisia**, organised by the IEEE Tunisia Section with IEEE PES Tunisia, IEEE IES Tunisia Chapter, Student Activities Committee and Young Professionals.
-- Dataset: Microsoft Azure Predictive Maintenance, redistributed on Kaggle by `arnabbiswas1`. Check the dataset page for the exact licence and terms of use before redistributing any data.
+- Dataset: [Microsoft Azure Predictive Maintenance](https://www.kaggle.com/datasets/arnabbiswas1/microsoft-azure-predictive-maintenance), redistributed on Kaggle by `arnabbiswas1`. Check the dataset page for the exact licence and terms of use before redistributing any data.
 - Source links were verified on Kaggle on September 26, 2026 (see the dataset options sheet provided with the challenge).
 
 *Project licence: to be chosen by the team before making the repository public.*
